@@ -1,0 +1,67 @@
+.container{
+   background-color: rgb(226, 101, 101);
+}
+.box {
+  background-color: whitesmoke;
+    width: 550px;
+    height: 450px;
+    border: 1px solid rgb(230, 230, 233);
+    padding: 10px;
+    margin: 60px;
+    margin-left: 0px;
+    border-radius: 15px;
+    border-bottom-right-radius: 80px;
+    box-shadow: 5px 5px 5px 5px rgba(82, 82, 85, 0.8);
+}
+#day {
+    width: 70px;
+}
+input::-webkit-inner-spin-button{
+    appearance: none;
+    
+}
+
+input {
+    border-radius: 5px;
+    border: 1px solid rgb(142, 142, 146);
+    height: 45px;
+    width: 100px;
+    box-shadow: 3px 3px 3px 3px rgba(230, 230, 233, 0.8);
+}
+input:focus{
+    outline: 1px solid rgb(182, 182, 192);
+}
+.flex-container {
+    display: inline-flex;
+    justify-content: start;
+    margin-top: 20px;
+    margin-left: 50px;
+    gap: 25px;
+}
+hr#line{
+   margin-left: 50px;
+   margin-top: 10px;
+   margin-right: 50px;
+    border: none;
+    height: 1px;
+    color: #333; /* you can change this color */
+    background-color: #333; /* and this color */
+  }
+  label {
+    color: grey;
+  }
+  .ace {
+    display: inline;
+  }
+  #displayage {
+    margin-top: 0px;
+    margin-left: 50px;
+    font-size: 50px; 
+    font-weight: bold;
+    color: hsl(220, 100%, 1%);
+  }
+  .color {
+    color: rgb(6, 8, 109);
+    font-size: 50px; 
+    font-weight: bold;
+  }
